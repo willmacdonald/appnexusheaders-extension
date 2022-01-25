@@ -1,0 +1,26 @@
+{
+  "description": "Enable Test Mode Ads when developing site that use AppNexus/Xandr ads. This extension adds the 'X-Is-Test:1'.",
+   "manifest_version": 3,
+   "icons": {
+        "16": "adnxs16.png",
+        "32": "adnxs32.png",
+        "48": "adnxs48.png",
+        "64": "adnxs64.png",
+        "128": "adnxs128.png"
+     },
+   "name": "AppNexus Test Header",
+   "version": "1.0.0",
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "declarativeNetRequest"
+]
+}

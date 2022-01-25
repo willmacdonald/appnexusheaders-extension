@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+            "header": "X-Is-Test",
+            "operation": "set",
+            "value": "1" }
+      ]
+    },
+    "condition" : {
+        "urlFilter" : "adnxs",
+        "resourceTypes" : [
+            "main_frame",
+            "script",
+            "sub_frame"
+        ]
+      }
+}]
