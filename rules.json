@@ -11,9 +11,11 @@
       ]
     },
     "condition" : {
-        "urlFilter" : "adnxs",
+        "urlFilter" : "adnxs.com",
         "resourceTypes" : [
             "main_frame",
+            "stylesheet",
+            "xmlhttprequest",
             "script",
             "sub_frame"
         ]
